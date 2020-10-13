@@ -1,9 +1,11 @@
 baseurl = "/"
 languageCode = "en-us"
-languageLang = "en"
-title = "Homepage"
+title = "Tasty Licks"
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+[params]
+  description = "An example website for restaurants built by [@eliwilliamson](https://github.com/eliwilliamson) using [Victor Hugo](https://github.com/netlify/victor-hugo)."
+
+[[menu.main]]
+    name = "About"
+    url  = "/about"
+    weight = 1
